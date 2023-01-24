@@ -48,7 +48,7 @@ if (splides.length) {
 
 // product tab js
 //for tab switcher
-filterBestDog("citrusd_drydog");
+filterBestDog("citrus_all_tab_select");
 
 function filterBestDog(c) {
   var x, i;

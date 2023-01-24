@@ -46,9 +46,6 @@ a {
   color: #000;
 }
 /* -----------slider style-------------- */
-.citrusRoyalCanin__SliderContainer {
-  /* background: #f1f1da; */
-}
 .citrusRoyalCanin__firstSlideContainer, .citrusRoyalCanin__secondSlideContainer, .citrusRoyalCanin__thirdSlideContainer {
   width: 100%;
   max-width: 100%;
@@ -195,7 +192,7 @@ a {
   display: inline-block;
 }
 .sliderCTAcenter{
-  grid-template-columns: auto;
+  display: inline-flex;
 }
 .citrusRoyalCanin__thirdSlide_last_image{
   width: 100%;
@@ -227,15 +224,7 @@ a {
 }
 /* ------------End Slider Style ------------ */
 
-
-
-
-
-
-
-/************ PureBites benefits  Area*************/
-/************ PureBites benefits e  Area*************/
-/************************************/
+/* -----------RoyalCanin benefits Start-------------- */
 .citrus_RoyalCanin_benefitus_area {
   overflow: hidden;
   padding-top: 36px;
@@ -297,17 +286,9 @@ a {
   line-height: 19px;
 }
 
-/**************************************/
+/* -----------RoyalCanin benefits End-------------- */
 
-
-
-
-
-
-
-
-
-
+/* -----------RoyalCanin Video Start-------------- */
 .citrus_RoyalCanin__video_container {
   width: 100%;
   max-width: 1440px;
@@ -329,9 +310,8 @@ a {
   width: 50%;
 }
 .citrus_RoyalCanin__video_container .citrus_RoyalCanin__video_container--col img {
-  /* max-width: 537px; */
   width: 100%;  
-  margin-top: -6%; 
+  margin-top: -15%; 
 }
 
 .citrus_RoyalCanin__video_container .citrus_RoyalCanin__video_container--col .single-video {
@@ -351,6 +331,8 @@ a {
 }
 
 .citrus_RoyalCanin__video_container .citrus_RoyalCanin__video_container--col .video-text h3 {
+  width: 80%;
+  margin: 0px auto;
   font-size: 25px;
   color: #000000;
   font-family: "PetcoCircularTT-Bold", arial !important;
@@ -398,17 +380,9 @@ a {
   font-family: "PetcoCircularTT-Bold", arial !important;
   padding: 3rem 15px;
 }
+/* -----------RoyalCanin Video End-------------- */
 
-
-
-
-
-
-
-
-
-
-
+/* -----------RoyalCanin CallToAction Start-------------- */
 .citrus_RoyalCanin__calltoaction_container {
   width: 100%;
   max-width: 1440px;
@@ -434,15 +408,10 @@ a {
   width: 100%;  
   margin-top: -6%; 
 }
+/* -----------RoyalCanin CallToAction End-------------- */
 
 
-
-
-
-
-
-
-/* -----------------product tab section-------------------*/
+/* -----------RoyalCanin Product Start-------------- */
 .citrusRoyalCanin__sectionTitle h2 {
   color: #000;
   font-family: "PetcoCircularTT-Bold", arial !important;
@@ -451,181 +420,6 @@ a {
   text-align: center;
 }
 
-/*-------------- GO BEYOND THE FIRST INGREDIENT --------------------------------- */
-.citrusRoyalCanin__goBeyondContainer {
-  width: 1440px;
-  max-width: 100%;
-  margin: auto;
-  padding-top: 20px;
-}
-.citrusRoyalCanin__goBeyond__card {
-  width: 1091px;
-  max-width: 100%;
-  margin: 40px auto;
-  background-color: #8d9b3a;
-}
-.citrusRoyalCanin__goBeyond__Card--img img,
-.citrusRoyalCanin__premium__card--img img {
-  width: 100%;
-  max-width: 100%;
-  object-fit: contain;
-}
-.citrusRoyalCanin__goBeyond__Card--body {
-  padding: 40px 0;
-  text-align: center;
-}
-.citrusRoyalCanin__goBeyond__Card--body h2 {
-  font-family: "PetcoCircularTT-Bold", arial !important;
-  font-weight: bold;
-  font-size: 20px;
-}
-.citrusRoyalCanin__goBeyond__Card--body p {
-  font-family: "PetcoCircularTT-Regular", arial !important;
-  font-size: 16px;
-  margin-top: 10px;
-}
-
-/* Premium meals for a better future start */
-.citrusRoyalCanin__premiumContainer-fluid {
-  background: rgba(141, 155, 58, 20%);
-  width: 100%;
-  max-width: 100%;
-  padding: 40px 20px 25px 20px;
-}
-.citrusRoyalCanin__premiumContainer {
-  width: 1095px;
-  max-width: 100%;
-  margin: 0 auto;
-}
-.citrusRoyalCanin__premium__row {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-gap: 20px;
-  margin-top: 40px;
-}
-.citrusRoyalCanin__premium__card {
-  text-align: center;
-}
-.citrusRoyalCanin__premium__card--body {
-  width: 80%;
-  max-width: 100%;
-  margin: auto;
-  margin-top: 40px;
-}
-.citrusRoyalCanin__premium__card--body h2 {
-  font-family: "PetcoCircularTT-Bold", arial !important;
-  font-weight: bold;
-  font-size: 20px;
-  color: #000;
-  margin-bottom: 20px;
-}
-.citrusRoyalCanin__premium__card--body p {
-  font-family: "PetcoCircularTT-Regular", arial !important;
-  font-size: 16px;
-  color: #000;
-  margin-bottom: 20px;
-}
-.citrusRoyalCanin__card--CTA a,
-.citrusRoyalCanin__CTA {
-  font-family: "PetcoCircularTT-Bold", arial !important;
-  font-weight: bold;
-  color: #001952;
-  text-decoration: underline;
-  text-transform: capitalize;
-  font-size: 16px;
-}
-
-/* **************Try new RoyalCanin Premium Pâté for cats *************************** */
-.citrusRoyalCanin__newPremium__container {
-  width: 1240px;
-  max-width: 100%;
-  margin: 40px auto;
-}
-.citrusRoyalCanin__newPremium__container > .citrusRoyalCanin__sectionTitle h2 {
-  text-align: left;
-}
-.citrusRoyalCanin__sectionSubhead {
-  display: flex;
-  justify-content: space-between;
-  font-family: "PetcoCircularTT-Regular", arial !important;
-  font-size: 16px;
-  border-bottom: 1px solid #000;
-  padding: 14px 20px 25px 0;
-}
-/* new product styling */
-.citrusRoyalCanin__newPremium__productContainer {
-  padding: 0 4%;
-}
-.citrusRoyalCanin__newPremium__row {
-  display: grid;
-  grid-template-columns: 45% 55%;
-  margin-top: 20px;
-  grid-gap: 15px;
-}
-.citrusRoyalCanin__newPremium__col {
-  position: relative;
-}
-.citrusRoyalCanin__newPremium__col img {
-  max-width: 100%;
-  position: relative;
-}
-.citrusRoyalCanin__newPremium--absoluteImg img {
-  width: 208px;
-  height: 100px;
-  object-fit: contain;
-  position: absolute;
-  top: 29px;
-  right: 29px;
-}
-.citrusRoyalCanin__newPremium__productShot--row {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 15px;
-}
-.citrusRoyalCanin__newPremium__productShot--card__img {
-  text-align: center;
-  margin-top: 3px;
-  height: 170px;
-}
-.citrusRoyalCanin__newPremium__productShot--card__img img {
-  width: 190px;
-  max-width: 100%;
-  object-fit: contain;
-}
-.citrusRoyalCanin__newPremium__productShot--card__body {
-  font-family: "PetcoCircularTT-Regular", arial !important;
-  font-size: 13px;
-}
-.citrusRoyalCanin__newPremium__productShot--card__body a {
-  font-family: "PetcoCircularTT-Bold", arial !important;
-  font-weight: bold;
-  text-decoration: underline;
-  color: #001952;
-}
-.citrusRoyalCanin__disclaimer {
-  font-family: "PetcoCircularTT-Regular", arial !important;
-  font-size: 16px;
-  text-align: center;
-  margin-top: 20px;
-}
-.citrusRoyalCanin__newPremium__productShot--card__body p {
-  font-family: "PetcoCircularTT-Regular", arial !important;
-  color: #333333;
-  font-size: 13px;
-  text-align: left;
-  text-decoration: none;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  display: -webkit-box;
-  -webkit-line-clamp: 2;
-  line-clamp: 2;
-  -webkit-box-orient: vertical;
-  max-height: 4em;
-  margin-bottom: 24px;
-}
-.citrusRoyalCanin__newPremium__leftImage {
-  padding-right: 30px;
-}
 /************************** The perfect recipe for every pet ****************************** */
 .citrusRoyalCanin__perfectContainer {
   margin-top: 37px;
@@ -864,6 +658,23 @@ button {
   width: 2.2em;
   z-index: 1;
 }
+/* VIDOE style S*/
+.video_sliderCTAcenter{
+  display: inline-flex;
+}
+/* VIDOE style e*/
+
+
+.citrusRoyalCanin__calltoaction_Product_Row{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 18px;
+  line-height: 22px;
+  text-transform: uppercase;
+}
+
 
 /* some common style */
 .citrusRoyalCanin__desktop_hide {
@@ -872,6 +683,7 @@ button {
 .citrusRoyalCanin__mobile_hide {
   display: block;
 }
+
 /* responsive styling start for small devices */
 
 @media all and (max-width: 1440px) {
@@ -1088,7 +900,7 @@ button {
     height: auto!important;
   }
   .citrusRoyalCanin__thirdSlide__Product_Row{
-    /* padding: 3%; */
+    padding: 6%;
     height: auto;
   }
   .citrusRoyalCanin__thirdSlide__ColMiddle_bottom{
@@ -1270,7 +1082,32 @@ button {
     min-width: 60%;
   }
   /* benefits e */
+  /* Video  */
+  .citrus_RoyalCanin__video_container_vidoeRow{
+    flex-wrap: wrap;
+    flex-flow: column-reverse;
+  }
+  .citrus_RoyalCanin__video_container .citrus_RoyalCanin__video_container--col{
+    width: 100%;
+  }
+  /* Video s */
+  .video_sliderCTAcenter a{
+    display: inline-flex;
+  }
+  /* Video e */
 
+  .citrusRoyalCanin__calltoaction_Product_Row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: uppercase;
+  }
+  .calltoaction_sliderCTAcenter{
+
+  }
 }
 
 @media all and (max-width: 420px) {
