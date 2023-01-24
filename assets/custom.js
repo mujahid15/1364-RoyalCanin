@@ -112,7 +112,7 @@ arrowHide("splide01");
 arrowHide("splide02");
 arrowHide("splide04");
 arrowHide("splide06");
-arrowHide("splide07");
+// arrowHide("splide07");
 function arrowHide(id) {
   var splide = new Splide("#" + id, {
     focus: "right",
