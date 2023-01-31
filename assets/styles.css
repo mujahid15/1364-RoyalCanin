@@ -27,23 +27,23 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: "PetcoCircularTT-Regular", arial !important;
+  font-family: "PetcoCircularTT-Regular", arial 
+  /* !important; where is font-family:  must have to use !important; */
 }
 /* default css */
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-sup,
-p {
+.citrusRoyalCanin__Wrapper h1,
+.citrusRoyalCanin__Wrapper h2,
+.citrusRoyalCanin__Wrapper h3,
+.citrusRoyalCanin__Wrapper h4,
+.citrusRoyalCanin__Wrapper h5,
+.citrusRoyalCanin__Wrapper h6,
+.citrusRoyalCanin__Wrapper sup,
+.citrusRoyalCanin__Wrapper p {
   margin: 0;
   padding: 0;
 }
-a {
+.citrusRoyalCanin__Wrapper a {
   text-decoration: none;
-  color: #000;
 }
 /*----------- Slider Start (Max-1440px)----------- */
 .citrusRoyalCanin__firstSlideContainer, .citrusRoyalCanin__secondSlideContainer, .citrusRoyalCanin__thirdSlideContainer {
@@ -52,12 +52,13 @@ a {
   height: 240px;
   overflow: hidden !important;
   margin: auto;
+  border-bottom: 2px solid #E2E2E2;
 }
 .citrusRoyalCanin__firstSlide_Row,
 .citrusRoyalCanin__secondSlide_Row,
 .citrusRoyalCanin__thirdSlide_Row {
   display: grid;
-  border-bottom: 2px solid #E2E2E2;
+  /* border-bottom: 2px solid #E2E2E2; */
   max-width: 100%;
   overflow: hidden;
   height: 240px;
@@ -69,6 +70,19 @@ a {
 .citrusRoyalCanin__imgContainer img {
   max-width: 100%;
   object-fit: contain;
+}
+.citrusRoyalCanin__firstSlide_top_logo, .citrusRoyalCanin__firstSlide_left_img{
+  
+  margin: 0px auto;
+}
+.citrusRoyalCanin__firstSlide_top_logo{
+  max-width: 125px;
+  margin: 0px auto;
+  padding-top: 10px;
+  padding-bottom: 15px;
+}
+.citrusRoyalCanin__firstSlide_left_img{
+  max-width: 63%;
 }
 .citrusRoyalCanin__FirstSlide_first_image{
   width: 100%;
@@ -499,6 +513,7 @@ button {
 }
 .citrus_RoyalCanin__video_container .citrus_RoyalCanin__video_container--col .single-video iframe {
   width: 100%;
+  /* height: 300px; */
   min-height: 31vh;
   margin-top: -15%;
 }
@@ -584,7 +599,7 @@ button {
   line-height: 22px;
   color: #000000;
   max-width: 80%;
-  margin: 0px auto;
+  margin: 0px auto!important;
 }
 .citrusRoyalCanin__calltoaction_Product_title{
   margin-top: 15px;
@@ -691,6 +706,11 @@ button {
       .citrusRoyalCanin__firstSlide_Row, .citrusRoyalCanin__secondSlide_Row, .citrusRoyalCanin__thirdSlide_Row {
         height: 200px;
       }
+      .citrusRoyalCanin__firstSlide_top_logo{
+        max-width: 125px;
+        margin: 0px auto;
+        padding-bottom: 15px;
+      }
       .citrusRoyalCanin__secondSlide__textContainer,
       .citrusRoyalCanin__thirdSlide__textContainer {
         row-gap: 10px;
@@ -729,6 +749,8 @@ button {
       .citrusRoyalCanin__FirstSlide_first_image{
         padding-left: 0px;
         padding-top: 60px;
+        max-width: 65%!important;
+        margin: 0px auto; 
       }
       /*----------- Slider End (769px-991px)----------- */
 
@@ -768,8 +790,12 @@ button {
         /*----------- Common Style end Max-768px----------- */
 
         /*----------- Slider Start Max-768px----------- */
+        .citrusRoyalCanin__SliderContainer #image-carousel{
+          height: 420px;
+        }
         .citrusRoyalCanin__firstSlideContainer, .citrusRoyalCanin__secondSlideContainer, .citrusRoyalCanin__thirdSlideContainer{
-          height: auto;
+          height: 420px;
+          margin-top: 0px;
           margin-bottom: 0px;
         }
         .citrusRoyalCanin__firstSlide_Row, .citrusRoyalCanin__secondSlide_Row, .citrusRoyalCanin__thirdSlide_Row {
@@ -801,6 +827,11 @@ button {
           width: 100%;
           object-fit: contain;
         }
+        .citrusRoyalCanin__FirstSlide_first_image{
+          max-width: 50%;
+          margin: 0px auto;
+          padding: 0px;
+        }
         .citrusRoyalCanin__secondSlide_Row img{
           height: auto!important;
         }
@@ -821,6 +852,9 @@ button {
           line-height: 36px;
           text-decoration: underline;
           font-weight: bold;
+        }
+        .citrusRoyalCanin__MiddleCTA-Box > .citrusRoyalCanin__shopCTALarge {
+          text-decoration: underline!important;
         }
         .citrusRoyalCanin__Middle_textContainer p,
         .citrusRoyalCanin__secondSlide__textContainer p {
@@ -906,7 +940,8 @@ button {
           margin: 0px auto 0px;
         }
         .citrus_RoyalCanin__video_container .citrus_RoyalCanin__video_container--col .single-video iframe{
-          min-height: 26vh;
+          /* min-height: 26vh; */
+          height: auto!important;
         }
         
         /*----------- Video End Max-768px----------- */
@@ -936,10 +971,25 @@ button {
           font-size: 16px;
         }
         /*----------- CallToAction End Max-768px----------- */
+
+        .citrus_RoyalCanin_cmon-heading > h2{
+          font-size: 20px;
+        }
+        .citrusRoyalCanin__sectionTitle > h2{
+          font-size: 20px;
+        }
+        .citrus_RoyalCanin__video_container .citrus_RoyalCanin__video_container--col .video-text h3{
+          font-size: 20px;
+        }
+        .citrus_RoyalCanin__calltoaction_textContainer_title{
+          font-size: 20px;
+          margin-bottom: 10px!important;
+        }
       }
 
         @media all and (max-width: 420px) {
           /*----- Slider Start Max-420px----------- */
+          
           .citrusRoyalCanin__firstSlide__title,
           .citrusRoyalCanin__secondSlide__title,
           .citrusRoyalCanin__thirdSlide__title {
